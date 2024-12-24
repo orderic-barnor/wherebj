@@ -16,6 +16,14 @@
     "email": "barnororderic@gmail.com",
     "url": "https://techrez.io/resume/barnor-orderic"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orderic-barnor/wherebj"
+  },
+  "bugs": {
+    "url": "https://github.com/orderic-barnor/wherebj/issues"
+  },
+  "homepage": "https://github.com/orderic-barnor/wherebj#readme",
   "keywords": [
     "benin",
     "cities",
