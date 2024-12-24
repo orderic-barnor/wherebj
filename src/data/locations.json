@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2024-12-24",
+    "totalDepartments": 12,
+    "totalCities": 77
+  },
+  "departments": [
+    {
+      "id": "atlantique",
+      "name": "Atlantique",
+      "cities": [
+        {
+          "id": "cotonou",
+          "name": "Cotonou",
+          "isCommune": true,
+          "quarters": [
+            {
+              "id": "akpakpa",
+              "name": "Akpakpa",
+              "arrondissement": "6ème"
+            },
+            {
+              "id": "cadjehoun",
+              "name": "Cadjehoun",
+              "arrondissement": "12ème"
+            },
+            {
+              "id": "agla",
+              "name": "Agla",
+              "arrondissement": "13ème"
+            }
+          ]
+        },
+        {
+          "id": "abomey-calavi",
+          "name": "Abomey-Calavi",
+          "isCommune": true,
+          "quarters": [
+            {
+              "id": "tokan",
+              "name": "Tokan"
+            },
+            {
+              "id": "godomey",
+              "name": "Godomey"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
