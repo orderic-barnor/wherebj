@@ -17,6 +17,23 @@ Toutes les modifications notables de WhereBJ seront documentées dans ce fichier
 - Littoral
 - Ouémé
 
+## [1.0.1] - 2024-12-29
+
+### Ajouté
+- Liste des départements mise à jour
+- Liste des villes mise à jour
+
+### Départements inclus
+- Atacora
+- Donga
+- Bogou
+- Alibori
+- Mono
+- Couffo
+- Plateau
+- Zou
+- Collines.
+
 ## [Unreleased]
 - Support pour les coordonnées GPS
 - Plus de données pour les autres départements
