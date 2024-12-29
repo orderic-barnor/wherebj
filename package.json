@@ -1,6 +1,6 @@
 {
   "name": "wherebj",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "Une librairie pour accéder aux données des villes et quartiers du Bénin",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

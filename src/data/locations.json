@@ -1,51 +1,1664 @@
 {
   "metadata": {
-    "version": "1.0.0",
-    "lastUpdated": "2024-12-24",
+    "version": "1.0.1",
+    "lastUpdated": "2024-12-29",
     "totalDepartments": 12,
     "totalCities": 77
   },
   "departments": [
     {
-      "id": "atlantique",
-      "name": "Atlantique",
+      "id": "littoral",
+      "name": "Littoral",
       "cities": [
         {
           "id": "cotonou",
           "name": "Cotonou",
           "isCommune": true,
-          "quarters": [
-            {
-              "id": "akpakpa",
-              "name": "Akpakpa",
-              "arrondissement": "6ème"
-            },
-            {
-              "id": "cadjehoun",
-              "name": "Cadjehoun",
-              "arrondissement": "12ème"
-            },
-            {
-              "id": "agla",
-              "name": "Agla",
-              "arrondissement": "13ème"
-            }
-          ]
+          "quarters": []
+        }
+      ]
+    },
+    {
+      "id": "atlantique",
+      "name": "Atlantique",
+      "cities": [
+        {
+          "id": "zè",
+          "name": "Zè",
+          "isCommune": true,
+          "quarters": []
         },
         {
           "id": "abomey-calavi",
           "name": "Abomey-Calavi",
           "isCommune": true,
-          "quarters": [
-            {
-              "id": "tokan",
-              "name": "Tokan"
-            },
-            {
-              "id": "godomey",
-              "name": "Godomey"
-            }
-          ]
+          "quarters": []
+        },
+        {
+          "id": "godomè",
+          "name": "Godomè",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "allada",
+          "name": "Allada",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "ouidah",
+          "name": "Ouidah",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "so-ava",
+          "name": "So-Ava",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "toffo",
+          "name": "Toffo",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "tori-bossito",
+          "name": "Tori-Bossito",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "golo-djigbé",
+          "name": "Golo-Djigbé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "zinvié",
+          "name": "Zinvié",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "akassato",
+          "name": "Akassato",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ségou",
+          "name": "Ségou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "pahou",
+          "name": "Pahou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "hévié",
+          "name": "Hévié",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "tori-cada",
+          "name": "Tori-Cada",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "coussé",
+          "name": "Coussé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "lissegazoun",
+          "name": "Lissegazoun",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ouédo-aguéko",
+          "name": "Ouédo-Aguéko",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ganvié",
+          "name": "Ganvié",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ouédo",
+          "name": "Ouédo",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "dodji-bata",
+          "name": "Dodji-Bata",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "adjarra",
+          "name": "Adjarra",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "agoukamè",
+          "name": "Agoukamè",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "koundakpoé",
+          "name": "Koundakpoé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "azohoué-cada",
+          "name": "Azohoué-Cada",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "attogon",
+          "name": "Attogon",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "avlékété",
+          "name": "Avlékété",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "adjian",
+          "name": "Adjian",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ayou",
+          "name": "Ayou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "gakpé",
+          "name": "Gakpé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "avamé",
+          "name": "Avamé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "togodo",
+          "name": "Togodo",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "avakpa",
+          "name": "Avakpa",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "djigbé",
+          "name": "Djigbé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "hinvi",
+          "name": "Hinvi",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "kpomasse",
+          "name": "Kpomassè",
+          "isCommune": true,
+          "quarters": []
+        }
+      ]
+    },
+    {
+      "id": "alibori",
+      "name": "Alibori",
+      "cities": [
+        {
+          "id": "banikoara",
+          "name": "Banikoara",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "kandi",
+          "name": "Kandi",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "gogounou",
+          "name": "Gogounou",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "ségbana",
+          "name": "Ségbana",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "karimama",
+          "name": "Karimama",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "founougo",
+          "name": "Founougo",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "goumori",
+          "name": "Goumori",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "sori",
+          "name": "Sori",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "bagou",
+          "name": "Bagou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "sinmpérékou",
+          "name": "Sinmpérékou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "toura",
+          "name": "Toura",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "gomparou",
+          "name": "Gomparou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "donwari",
+          "name": "Donwari",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "sam",
+          "name": "Sam",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "gounarou",
+          "name": "Gounarou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "libanté",
+          "name": "Libanté",
+          "isCommune": false,
+          "quarters": []
+        }
+      ]
+    },
+    {
+      "id": "donga",
+      "name": "Donga",
+      "cities": [
+        {
+          "id": "djougou",
+          "name": "Djougou",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "bassila",
+          "name": "Bassila",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "ouake",
+          "name": "Ouaké",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "copargo",
+          "name": "Copargo",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "kolokondé",
+          "name": "Kolokondé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "pabégou",
+          "name": "Pabégou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "massi",
+          "name": "Massi",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "sèmèrè",
+          "name": "Sèmèrè",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "anandana",
+          "name": "Anandana",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "badjoudè",
+          "name": "Badjoudè",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "komtè",
+          "name": "Komtè",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "tchalinga",
+          "name": "Tchalinga",
+          "isCommune": false,
+          "quarters": []
+        }
+      ]
+    },
+    {
+      "id": "borgou",
+      "name": "Borgou",
+      "cities": [
+        {
+          "id": "tchaourou",
+          "name": "Tchaourou",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "parakou",
+          "name": "Parakou",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "kalale",
+          "name": "Kalalé",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "ndali",
+          "name": "N’dali",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "sinendé",
+          "name": "Sinendé",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "pèrèrè",
+          "name": "Pèrèrè",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "nikki",
+          "name": "Nikki",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "bembèrèkè",
+          "name": "Bembèrèkè",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "bouka",
+          "name": "Bouka",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "bouanri",
+          "name": "Bouanri",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "biro",
+          "name": "Biro",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ina",
+          "name": "Ina",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "sérarou",
+          "name": "Sérarou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "bétérou",
+          "name": "Bétérou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "sakabansi",
+          "name": "Sakabansi",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "siki",
+          "name": "Siki",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "kika",
+          "name": "Kika",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ouénou",
+          "name": "Ouénou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "gbéroubouè",
+          "name": "Gbéroubouè",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "péonga",
+          "name": "Péonga",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "dérassi",
+          "name": "Dérassi",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "guinagourou",
+          "name": "Guinagourou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "sérékali",
+          "name": "Sérékali",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "sanson",
+          "name": "Sanson",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "fô-bouré",
+          "name": "Fô-Bouré",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "boni",
+          "name": "Boni",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "gourou",
+          "name": "Gourou",
+          "isCommune": false,
+          "quarters": []
+        }
+      ]
+    },
+    {
+      "id": "couffo",
+      "name": "Couffo",
+      "cities": [
+        {
+          "id": "aplahoué",
+          "name": "Aplahoué",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "djakotomey",
+          "name": "Djakotomey",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "lalo",
+          "name": "Lalo",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "tota",
+          "name": "Tota",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "toviklin",
+          "name": "Toviklin",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "azové",
+          "name": "Azové",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "kissa",
+          "name": "Kissa",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "togba",
+          "name": "Togba",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "adjahomé",
+          "name": "Adjahomé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ayomi",
+          "name": "Ayomi",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "atomé-avégamé",
+          "name": "Atomé-Avégamé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "godohou",
+          "name": "Godohou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "sokouhoué",
+          "name": "Sokouhoué",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "agamé",
+          "name": "Agamé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "lonkly",
+          "name": "Lonkly",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ahogbeya",
+          "name": "Ahogbeya",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "zoudjamé",
+          "name": "Zoudjamé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "lanta",
+          "name": "Lanta",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ouédémè",
+          "name": "Ouédémè",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "locogahoué",
+          "name": "Locogahoué",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "koyohoué",
+          "name": "Koyohoué",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "oungo",
+          "name": "Oungo",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "hondjin",
+          "name": "Hondjin",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "kpoba",
+          "name": "Kpoba",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "houton",
+          "name": "Houton",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "sahé",
+          "name": "Sahé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ayahohoué",
+          "name": "Ayahohoué",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "kinkinhoué",
+          "name": "Kinkinhoué",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ahomadégbé",
+          "name": "Ahomadégbé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "dogbo",
+          "name": "Dogbo",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "klouekanme",
+          "name": "Klouékanmè",
+          "isCommune": true,
+          "quarters": []
+        }
+      ]
+    },
+    {
+      "id": "atacora",
+      "name": "Atacora",
+      "cities": [
+        {
+          "id": "pehunco",
+          "name": "Pehunco",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "malanville",
+          "name": "Malanville",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "cobly",
+          "name": "Cobly",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "materi",
+          "name": "Matéri",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "kouandé",
+          "name": "Kouandé",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "natitingou",
+          "name": "Natitingou",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "boukoumbé",
+          "name": "Boukoumbé",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "péhonko",
+          "name": "Péhonko",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "tanguiéta",
+          "name": "Tanguiéta",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "toucountouna",
+          "name": "Toucountouna",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "kerou",
+          "name": "Kérou",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "guéné",
+          "name": "Guéné",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "tobré",
+          "name": "Tobré",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "tantéga",
+          "name": "Tantéga",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "tiahounkossi",
+          "name": "Tiahounkossi",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "angara-débou",
+          "name": "Angara-Débou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "garou",
+          "name": "Garou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "dassari",
+          "name": "Dassari",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "briniamaro",
+          "name": "Briniamaro",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "manta",
+          "name": "Manta",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "gouandé",
+          "name": "Gouandé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "birni",
+          "name": "Birni",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "kountouri",
+          "name": "Kountouri",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "niémasson",
+          "name": "Niémasson",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "firou",
+          "name": "Firou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "tomboutou",
+          "name": "Tomboutou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "kouarfa",
+          "name": "Kouarfa",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "chabi-kouma",
+          "name": "Chabi-Kouma",
+          "isCommune": false,
+          "quarters": []
+        }
+      ]
+    },
+    {
+      "id": "plateau",
+      "name": "Plateau",
+      "cities": [
+        {
+          "id": "ketou",
+          "name": "Kétou",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "pobe",
+          "name": "Pobè",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "adja-ouere",
+          "name": "Adja-Ouèrè",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "sakete",
+          "name": "Sakété",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "ifangni",
+          "name": "Ifangni",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "idigny",
+          "name": "Idigny",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "issaba",
+          "name": "Issaba",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "massé",
+          "name": "Massé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "banigbé",
+          "name": "Banigbé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "adakplamé",
+          "name": "Adakplamé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "kouti",
+          "name": "Kouti",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "yoko",
+          "name": "Yoko",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "takon",
+          "name": "Takon",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "lagbé",
+          "name": "Lagbé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "igana",
+          "name": "Igana",
+          "isCommune": false,
+          "quarters": []
+        }
+      ]
+    },
+    {
+      "id": "zou",
+      "name": "Zou",
+      "cities": [
+        {
+          "id": "za-kpota",
+          "name": "Za-Kpota",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "zogbodomey",
+          "name": "Zogbodomey",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "ouinhi",
+          "name": "Ouinhi",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "bohicon",
+          "name": "Bohicon",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "zagnanado",
+          "name": "Zagnanado",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "djidja",
+          "name": "Djidja",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "abomey",
+          "name": "Abomey",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "zogbodomé",
+          "name": "Zogbodomé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ouinhri",
+          "name": "Ouinhri",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "agbangnizoun",
+          "name": "Agbangnizoun",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "cove",
+          "name": "Covè",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "sagon",
+          "name": "Sagon",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "agouna",
+          "name": "Agouna",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "dan",
+          "name": "Dan",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "dasso",
+          "name": "Dasso",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "adjido",
+          "name": "Adjido",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "dékanmé",
+          "name": "Dékanmé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "sémé-akiza",
+          "name": "Sémé-Akiza",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ouassa",
+          "name": "Ouassa",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "tanvé",
+          "name": "Tanvé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "allahé",
+          "name": "Allahé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "domé",
+          "name": "Domé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "lissazoumé",
+          "name": "Lissazoumé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "naogon",
+          "name": "Naogon",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "kpomé",
+          "name": "Kpomé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "kouzounkpa",
+          "name": "Kouzounkpa",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "cana",
+          "name": "Cana",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "kinta",
+          "name": "Kinta",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "détohou",
+          "name": "Détohou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "tchito",
+          "name": "Tchito",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "zoungoudo",
+          "name": "Zoungoudo",
+          "isCommune": false,
+          "quarters": []
+        }
+      ]
+    },
+    {
+      "id": "oueme",
+      "name": "Ouémé",
+      "cities": [
+        {
+          "id": "sèmè-kpodji",
+          "name": "Sèmè-Kpodji",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "porto-novo",
+          "name": "Porto-Novo",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "aguegues",
+          "name": "Aguégués",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "avrankou",
+          "name": "Avrankou",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "misserete",
+          "name": "Missérété",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "adjarra",
+          "name": "Adjarra",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "dangbo",
+          "name": "Dangbo",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "Adjohoun",
+          "name": "Adjohoun",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "ekpé",
+          "name": "Ekpé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "agblangandan",
+          "name": "Agblangandan",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "bonou",
+          "name": "Bonou",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "vakon",
+          "name": "Vakon",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "atchoupa",
+          "name": "Atchoupa",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "tohoué",
+          "name": "Tohoué",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "azaourissè",
+          "name": "Azaourissè",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "méridjonou",
+          "name": "Méridjonou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "katagon",
+          "name": "Katagon",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "hozin",
+          "name": "Hozin",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "dagbé",
+          "name": "Dagbé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ouando",
+          "name": "Ouando",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "avabodji",
+          "name": "Avabodji",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "zounké",
+          "name": "Zounké",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "houédomé",
+          "name": "Houédomé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "affamè",
+          "name": "Affamè",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "dékin-afio",
+          "name": "Dékin-Afio",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "akpotonou",
+          "name": "Akpotonou",
+          "isCommune": false,
+          "quarters": []
+        }
+      ]
+    },
+    {
+      "id": "collines",
+      "name": "Collines",
+      "cities": [
+        {
+          "id": "ouesse",
+          "name": "Ouèssè",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "glazoue",
+          "name": "Glazoué",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "dassa-zoume",
+          "name": "Dassa-Zoumé",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "bante",
+          "name": "Bantè",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "savalou",
+          "name": "Savalou",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "savè",
+          "name": "Savè",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "paouignan",
+          "name": "Paouignan",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "aklanpa",
+          "name": "Aklanpa",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "toui",
+          "name": "Toui",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "gouka",
+          "name": "Gouka",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "doumé",
+          "name": "Doumé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "pira",
+          "name": "Pira",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "soklogbo",
+          "name": "Soklogbo",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "gbanhi",
+          "name": "Gbanhi",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "kaboua",
+          "name": "Kaboua",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "kilibo",
+          "name": "Kilibo",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "dougba",
+          "name": "Dougba",
+          "isCommune": false,
+          "quarters": []
+        }
+      ]
+    },
+    {
+      "id": "mono",
+      "name": "Mono",
+      "cities": [
+        {
+          "id": "lokossa",
+          "name": "Lokossa",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "houeyogbe",
+          "name": "Houéyogbé",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "bopa",
+          "name": "Bopa",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "grand-popo",
+          "name": "Grand-Popo",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "athiémé",
+          "name": "Athiémé",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "come",
+          "name": "Comè",
+          "isCommune": true,
+          "quarters": []
+        },
+        {
+          "id": "doutou",
+          "name": "Doutou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "lobogo",
+          "name": "Lobogo",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "dahé",
+          "name": "Dahé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "adohoun",
+          "name": "Adohoun",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "agatogba",
+          "name": "Agatogba",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "agoué",
+          "name": "Agoué",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "agbodji",
+          "name": "Agbodji",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "kpénou",
+          "name": "Kpénou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "tchanou",
+          "name": "Tchanou",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "houin",
+          "name": "Houin",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "adjaha",
+          "name": "Adjaha",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "gbakpodji",
+          "name": "Gbakpodji",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "djanglamé",
+          "name": "Djanglamé",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "ounhoué",
+          "name": "Ounhoué",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "gbehoué",
+          "name": "Gbehoué",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "oumako",
+          "name": "Oumako",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "sazué",
+          "name": "Sazué",
+          "isCommune": false,
+          "quarters": []
+        },
+        {
+          "id": "avlo",
+          "name": "Avlo",
+          "isCommune": false,
+          "quarters": []
         }
       ]
     }
